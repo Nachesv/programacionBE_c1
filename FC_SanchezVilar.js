@@ -17,7 +17,7 @@ function Usuario(nombre, apellido, libros, mascotas){
     }
 
     this.addBook = function(book, author){
-        nuevoLibro = {
+        let nuevoLibro = {
             libro: book,
             autor: author
         }
